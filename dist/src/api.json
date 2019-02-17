@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Mi saga favorita",
+      "title": "The Legend of Zelda",
+      "playlist": [
+        {
+          "title": "Breath of the Wild",
+          "author": "Nintendo EPD",
+          "type": "video",
+          "cover": "./images/covers/zelda-botw.png",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Ocarina of Time",
+          "author": "Nintendo EAD",
+          "type": "video",
+          "cover": "./images/covers/zelda-oot.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+          "id": 2
+        },
+        {
+          "title": "A Link to the Past",
+          "author": "Nintendo EAD",
+          "type": "video",
+          "cover": "./images/covers/zelda-alttp.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Wind Waker",
+          "author": "Nintendo EAD",
+          "type": "video",
+          "cover": "./images/covers/zelda-ww.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Twilight Princess",
+          "author": "Nintendo EAD",
+          "type": "video",
+          "cover": "./images/covers/zelda-tp.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Lo que juego normalmente",
+      "title": "Mis juegos de PC",
+      "playlist": [
+        {
+          "title": "League of Legends",
+          "author": "Riot Games",
+          "type": "video",
+          "cover": "./images/covers/league-of-legends.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Minecraft",
+          "author": "Mojang",
+          "type": "video",
+          "cover": "./images/covers/minecraft.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        },
+        {
+          "title": "Ori and the Blind Forest",
+          "author": "Moon Studios",
+          "type": "video",
+          "cover": "./images/covers/ori.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 2
+        },
+        {
+          "title": "Terraria",
+          "author": "Re-Logic",
+          "type": "video",
+          "cover": "./images/covers/terraria.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Hollow Knight",
+          "author": "Team Cherry",
+          "type": "video",
+          "cover": "./images/covers/hollow-knight.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Juegos de la infancia",
+      "title": "Retro",
+      "playlist": [
+        {
+          "title": "Pokémon Emeralda",
+          "author": "Game Freak",
+          "type": "video",
+          "cover": "./images/covers/pokemon-emerald.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Super Smash Bros Melee",
+          "author": "HAL Laboratory",
+          "type": "video",
+          "cover": "./images/covers/ssbm.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Super Mario World",
+          "author": "Nintendo",
+          "type": "video",
+          "cover": "./images/covers/super-mario-world.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 2
+        },
+        {
+          "title": "Megaman X",
+          "author": "Capcom",
+          "type": "video",
+          "cover": "./images/covers/megaman-x.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Spyro the Dragon: Year of the Dragon",
+          "author": "Insomniac Games",
+          "type": "video",
+          "cover": "./images/covers/spyro-3.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        }
+      ]
+    }
+  ]
+}
+

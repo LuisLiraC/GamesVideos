@@ -1,0 +1,25 @@
+.RegularError {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegularError-img {
+    width: 200px;
+}
+
+.RegularError-msg {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.RegularError-text {
+    color: #21C737;
+    font-size: 14px;
+}
