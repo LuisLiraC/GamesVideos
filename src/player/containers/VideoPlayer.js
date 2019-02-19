@@ -82,7 +82,7 @@ export default class VideoPlayer extends Component {
                 <Title 
                     title={this.props.title}
                 />
-                <Controls>
+                {/* <Controls>
                     <PlayPause 
                         pause={this.state.pause}
                         handleClick={this.togglePlay}
@@ -105,14 +105,14 @@ export default class VideoPlayer extends Component {
                 </Controls>
                 <Spinner 
                     active={this.state.loading}
-                />
+                /> */}
                 <Video 
-                    autoPlay={this.props.autoPlay}
-                    pause={this.state.pause}
-                    handleLoadedMetadata={this.handleLoadedMetadata}
-                    handleTimeUpdate={this.handleTimeUpdate}
-                    handleSeeking={this.handleSeeking}
-                    handleSeeked={this.handleSeeked}
+                    // autoPlay={this.props.autoPlay}
+                    // pause={this.state.pause}
+                    // handleLoadedMetadata={this.handleLoadedMetadata}
+                    // handleTimeUpdate={this.handleTimeUpdate}
+                    // handleSeeking={this.handleSeeking}
+                    // handleSeeked={this.handleSeeked}
                     src={this.props.src}
                 />
             </VideoPlayerLayout>

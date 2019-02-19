@@ -1,11 +1,20 @@
 import React from 'react';
 import logo from '../../../images/logo.png'
+import Soundtracks from '../../soundtracks/components/Soundtracks';
+import Youtubers from '../../youtuberslist/components/YoutubersList';
 import './Related.css';
 
-function Related () {
+function Related (props) {
     return (
         <div className="Related">
-            <img src={logo} width="250"/>
+            <div className="Related-logo">
+                <img src={logo} width="250"/>
+            </div>
+            <Soundtracks 
+                songs={props.soundtracks} 
+                handleOpenModal={props.handleOpenModal}
+            />
+            <Youtubers youtubers={props.youtubers} />
         </div>
     )
 }

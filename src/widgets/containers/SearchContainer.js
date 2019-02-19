@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Search from '../components/Search';
 
 class SearchContainer extends Component {
-    state = {
-        value: "Zelda"
-    }
 
     handleSubmit = (event) => {
         event.preventDefault();
@@ -27,7 +24,6 @@ class SearchContainer extends Component {
                 setRef={this.setInputRef}
                 handleSubmit={this.handleSubmit}
                 handleChange={this.handleInputChange}
-                value={this.state.value}
             />
         )
     }

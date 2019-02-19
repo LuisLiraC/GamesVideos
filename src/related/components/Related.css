@@ -1,3 +1,9 @@
 .Related {
   width: 300px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Related-logo {
+  width: 100%;
 }

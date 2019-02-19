@@ -1,0 +1,19 @@
+.Song {
+    padding-left: 10px;
+    color: lightgrey;
+}
+
+.Song:hover {
+    cursor: pointer;
+    color: #22FF38;
+}
+
+.Song-name {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.Song-game {
+    font-size: 11px;
+    margin-top: 2px;
+}

@@ -27,14 +27,19 @@ class Video extends Component {
 
         return (
             <div className="Video">
-                <video 
+                <iframe 
                     src={this.props.src}
-                    autoPlay={this.props.autoPlay}
-                    ref={this.setRef}
-                    onLoadedMetadata={handleLoadedMetadata}
-                    onTimeUpdate={handleTimeUpdate}
-                    onSeeking={handleSeeking}
-                    onSeeked={handleSeeked}
+                    // autoPlay={this.props.autoPlay}
+                    // ref={this.setRef}
+                    // onLoadedMetadata={handleLoadedMetadata}
+                    // onTimeUpdate={handleTimeUpdate}
+                    // onSeeking={handleSeeking}
+                    // onSeeked={handleSeeked}
+                    // width="560" 
+                    height="400"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
                 />
             </div>
         )
@@ -42,3 +47,4 @@ class Video extends Component {
 }
 
 export default Video;
+

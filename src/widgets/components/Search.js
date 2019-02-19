@@ -9,12 +9,10 @@ const Search = (props) => (
         <input 
             ref={props.setRef}
             className="Search-input" 
-            placeholder="Busca tu juego favorito"
+            placeholder="Buscar..."
             type="text"
             name="search"
-            // defaultValue="Zelda"
             onChange={props.handleChange}
-            value={props.value}
         />
     </form>
 )

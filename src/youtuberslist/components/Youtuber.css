@@ -1,0 +1,26 @@
+.Youtuber {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Youtuber img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.Youtuber-name {
+    padding-left: 15px;
+}
+
+.Youtuber a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.Youtuber a:hover {
+    color: #22FF38;
+    border-color: #22FF38;
+    cursor: pointer;
+}
