@@ -255,31 +255,31 @@
   "youtubers": [
     {
       "id": 1,
-      "channel": "https://www.youtube.com",
+      "channel": "https://www.youtube.com/user/GuinxuVideos",
       "name": "Guinxu",
       "logoSrc": "./images/logos/guinxu.jpg"
     },
     {
       "id": 2,
-      "channel": "https://www.youtube.com",
+      "channel": "https://www.youtube.com/user/adderly2dd",
       "name": "Adderly Céspedes",
       "logoSrc": "./images/logos/adderly.jpg"
     },
     {
       "id": 3,
-      "channel": "https://www.youtube.com",
+      "channel": "https://www.youtube.com/user/FuKuy",
       "name": "FuKuy",
       "logoSrc": "./images/logos/fukuy.jpg"
     },
     {
       "id": 4,
-      "channel": "https://www.youtube.com",
+      "channel": "https://www.youtube.com/user/Servorius",
       "name": "Hektor Profe",
       "logoSrc": "./images/logos/hektor.jpg"
     },
     {
       "id": 5,
-      "channel": "https://www.youtube.com",
+      "channel": "https://www.youtube.com/channel/UCdF0Qnc38nFc7lw01GshQ9g",
       "name": "Padre Gamer",
       "logoSrc": "./images/logos/padre.jpg"
     }
