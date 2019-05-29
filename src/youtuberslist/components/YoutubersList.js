@@ -3,7 +3,6 @@ import Youtuber from './Youtuber';
 import './YoutubersList.css'
 
 export default function YoutubersList(props){
-    console.log(props)
     return (
         <div className="Youtubers">
             <h3>Mis Youtubers favoritos sobre videojuegos</h3> 
@@ -11,8 +10,8 @@ export default function YoutubersList(props){
                 props.youtubers.map( (item) => {
                     return (
                         <Youtuber 
-                            key={item.id}
-                            {...item}
+                            key={item.get('id')}
+                            {...item.toJS()}
                         />
                     )
                 })

@@ -10,8 +10,8 @@ function Soundtracks(props){
             props.songs.map( (item) => {
                 return (
                     <Song 
-                        key={item.id}
-                        {...item}
+                        key={item.get('id')}
+                        {...item.toJS()}
                         openModal={props.handleOpenModal}
                     />
                 )

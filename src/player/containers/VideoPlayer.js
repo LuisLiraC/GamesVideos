@@ -9,8 +9,10 @@ import ProgressBar from '../components/ProgressBar';
 import Spinner from '../components/Spinner';
 import Volume from '../components/Volume';
 import FullScreen from '../components/FullScreen';
+import { connect } from 'react-redux';
+import {fromJS} from 'immutable';
 
-export default class VideoPlayer extends Component {
+class VideoPlayer extends Component {
     state = {
         pause: true,
         duration: 0,
@@ -80,7 +82,7 @@ export default class VideoPlayer extends Component {
                 setRef={this.setRef}
             >
                 <Title 
-                    title={this.props.title}
+                    title={this.props.game.get('title')}
                 />
                 {/* <Controls>
                     <PlayPause 
@@ -113,9 +115,27 @@ export default class VideoPlayer extends Component {
                     // handleTimeUpdate={this.handleTimeUpdate}
                     // handleSeeking={this.handleSeeking}
                     // handleSeeked={this.handleSeeked}
-                    src={this.props.src}
+                    src={this.props.game.get('src')}
                 />
             </VideoPlayerLayout>
         )
     }
 }
+
+function mapStateToProps(state, props){
+    
+    if (typeof(props.id) == typeof("string")){
+        return {
+            game: state.get('data').get('entities').get('game').get(props.id)
+        }
+    } else {
+        return {
+            game: fromJS({
+                title: props.id.songname,
+                src: props.id.src
+            })
+        }
+    }
+}
+
+export default connect(mapStateToProps)(VideoPlayer);

@@ -5,7 +5,7 @@ import './Media.css';
 class Media extends PureComponent {
 
     handleClick = event => {
-        this.props.openModal(this.props)
+        this.props.openModal(this.props.id)
     }
 
     render(){
@@ -19,9 +19,9 @@ class Media extends PureComponent {
                         height={160}
                         className="Media-image"
                     />
-                    <h3 className="Media-title"> {this.props.title} </h3>
-                    <p className="Media-author">{this.props.author}</p>
                 </div>
+                <h3 className="Media-title"> {this.props.title} </h3>
+                <p className="Media-author">{this.props.author}</p>
             </div>
         )
     }

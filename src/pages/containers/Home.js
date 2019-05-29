@@ -6,48 +6,59 @@ import ModalContainer from '../../widgets/containers/ModalContainer';
 import Modal from '../../widgets/components/Modal';
 import HandleError from '../../error/containers/HandleError';
 import VideoPlayer from '../../player/containers/VideoPlayer';
+import { connect } from 'react-redux';
+import { List as list } from 'immutable';
+import * as actions from '../../actions/actions';
+import {bindActionCreators} from 'redux';
 
 class Home extends Component {
-    state = {
-        modalVisible: false,
-    }
+    // state = {
+    //     modalVisible: false,
+    // }
 
-    handleOpenModal = (media) => {
-        this.setState({
-            modalVisible: true,
-            media
-        })
+    handleOpenModal = (id) => {
+        this.props.actions.openModal(id)
+        // this.setState({
+        //     modalVisible: true,
+        //     media
+        // })
     }
 
     handleCloseModal = (event) => {
-        this.setState({
-            modalVisible: false
-        })
+        this.props.actions.closeModal()
+        // this.setState({
+        //     modalVisible: false
+        // })
     }
+
+    
 
     render () {
         return (
             <HandleError>
                 <HomeLayout>
                     <Related 
-                        soundtracks={this.props.data.soundtracks}
-                        youtubers={this.props.data.youtubers}
+                        soundtracks={this.props.soundtracks}
+                        youtubers={this.props.youtubers}
                         handleOpenModal={this.handleOpenModal}
                     />
                     <Categories 
-                        categories={this.props.data.categories} 
+                        categories={this.props.categories} 
                         handleOpenModal={this.handleOpenModal}
+                        search={this.props.search}
+                        loading={this.props.loading}
                     />
                     {
-                        this.state.modalVisible &&
+                        this.props.modal.get('visibility') &&
                         <ModalContainer>
                             <Modal
                                 handleClick={this.handleCloseModal}
                             >
                                 <VideoPlayer 
                                   autoPlay
-                                  src={this.state.media.src}
-                                  title={this.state.media.title}
+                                  id={this.props.modal.get('gameId')}
+                                //   src={this.state.media.src}
+                                //   title={this.state.media.title}
                                 />
                             </Modal>
                         </ModalContainer>
@@ -58,4 +69,34 @@ class Home extends Component {
     }
 }
 
-export default Home;
+function mapStateToProps(state, props){
+    const categories = state.get('data').get('categories').map((categoryId) => {
+        return state.get('data').get('entities').get('categories').get(categoryId)
+    })
+    let queryResults = list();
+    const query = state.get('data').get('search')
+    if(query){
+        const gameList = state.get('data').get('entities').get('game')
+        queryResults = gameList.filter((game) => {
+            return game.get('title').toLowerCase().includes(query.toLowerCase())
+        }).toList();
+    }
+
+    return {
+        categories: categories,
+        youtubers: state.get('data').get('youtubers'),
+        soundtracks: state.get('data').get('soundtracks'),
+        search: queryResults,
+        modal: state.get('modal'),
+        loading: state.get('loading').get('active')
+    }
+}
+
+function mapDispatchToProps(dispatch){
+    return {
+        // actions: bindActionCreators(acciones, dispatch)
+        actions: bindActionCreators(actions, dispatch)
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

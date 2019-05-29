@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Mi saga favorita",
       "title": "The Legend of Zelda",
       "playlist": [
@@ -11,7 +11,7 @@
           "type": "video",
           "cover": "./images/covers/zelda-botw.jpg",
           "src": "https://www.youtube.com/embed/zw47_q9wbBE",
-          "id": 1
+          "id": "1"
         },
         {
           "title": "Ocarina of Time",
@@ -19,7 +19,7 @@
           "type": "video",
           "cover": "./images/covers/zelda-oot.jpg",
           "src": "https://www.youtube.com/embed/_NElFLzgdUs",
-          "id": 2
+          "id": "2"
         },
         {
           "title": "A Link to the Past",
@@ -27,7 +27,7 @@
           "type": "video",
           "cover": "./images/covers/zelda-alttp.jpg",
           "src": "https://www.youtube.com/embed/wg1MXUZC2_E",
-          "id": 3
+          "id": "3"
         },
         {
           "title": "Wind Waker",
@@ -35,7 +35,7 @@
           "type": "video",
           "cover": "./images/covers/zelda-ww.jpg",
           "src": "https://www.youtube.com/embed/RxMos9muPYQ",
-          "id": 4
+          "id": "4"
         },
         {
           "title": "Twilight Princess",
@@ -43,15 +43,15 @@
           "type": "video",
           "cover": "./images/covers/zelda-tp.jpg",
           "src": "https://www.youtube.com/embed/YHu7hvxjdww",
-          "id": 5
+          "id": "5"
         },
         {
-          "title": "Zelda Majora's Mask",
+          "title": "Majora's Mask",
           "author": "Nintendo EAD",
           "type": "video",
           "cover": "./images/covers/zelda-majora.png",
           "src": "https://www.youtube.com/embed/cyazYYev7Nw",
-          "id": 6
+          "id": "6"
         },
         {
           "title": "Minish Cap",
@@ -59,12 +59,12 @@
           "type": "video",
           "cover": "./images/covers/zelda-minish.jpg",
           "src": "https://www.youtube.com/embed/l4l86EtYers",
-          "id": 7
+          "id": "7"
         }
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Gaming en PC",
       "title": "Mis juegos de PC",
       "playlist": [
@@ -74,7 +74,7 @@
           "type": "video",
           "cover": "./images/covers/league-of-legends.jpg",
           "src": "https://www.youtube.com/embed/zF5Ddo9JdpY",
-          "id": 1
+          "id": "8"
         },
         {
           "title": "To the Moon",
@@ -82,7 +82,7 @@
           "type": "video",
           "cover": "./images/covers/tothemoon.jpg",
           "src": "https://www.youtube.com/embed/sqkJuSV-23U",
-          "id": 6
+          "id": "9"
         },
         {
           "title": "Child of Light",
@@ -90,7 +90,7 @@
           "type": "video",
           "cover": "./images/covers/child-of-light.jpg",
           "src": "https://www.youtube.com/embed/KsB1ydR8NFk",
-          "id": 6
+          "id": "10"
         },
         {
           "title": "Minecraft",
@@ -98,7 +98,7 @@
           "type": "video",
           "cover": "./images/covers/minecraft.jpg",
           "src": "https://www.youtube.com/embed/MmB9b5njVbA",
-          "id": 5
+          "id": "11"
         },
         {
           "title": "Ori and the Blind Forest",
@@ -106,7 +106,7 @@
           "type": "video",
           "cover": "./images/covers/ori.jpg",
           "src": "https://www.youtube.com/embed/cklw-Yu3moE",
-          "id": 2
+          "id": "12"
         },
         {
           "title": "Terraria",
@@ -114,7 +114,7 @@
           "type": "video",
           "cover": "./images/covers/terraria.jpg",
           "src": "https://www.youtube.com/embed/w7uOhFTrrq0",
-          "id": 4
+          "id": "13"
         },
         {
           "title": "Hollow Knight",
@@ -122,12 +122,12 @@
           "type": "video",
           "cover": "./images/covers/hollow-knight.jpg",
           "src": "https://www.youtube.com/embed/UAO2urG23S4",
-          "id": 3
+          "id": "14"
         }
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "Juegos de la infancia",
       "title": "Retro",
       "playlist": [
@@ -137,7 +137,7 @@
           "type": "video",
           "cover": "./images/covers/pokemon-emerald.jpg",
           "src": "https://www.youtube.com/embed/KInoJimjJzI",
-          "id": 1
+          "id": "15"
         },
         {
           "title": "Super Smash Bros Melee",
@@ -145,7 +145,7 @@
           "type": "video",
           "cover": "./images/covers/ssbm.jpg",
           "src": "https://www.youtube.com/embed/O0O173xIuO0",
-          "id": 3
+          "id": "16"
         },
         {
           "title": "Super Mario World",
@@ -153,7 +153,7 @@
           "type": "video",
           "cover": "./images/covers/super-mario-world.jpg",
           "src": "https://www.youtube.com/embed/t_aEv3pAh44",
-          "id": 2
+          "id": "17"
         },
         {
           "title": "Megaman X",
@@ -161,7 +161,7 @@
           "type": "video",
           "cover": "./images/covers/megaman-x.jpg",
           "src": "https://www.youtube.com/embed/KiH35lzjXTc",
-          "id": 4
+          "id": "18"
         },
         {
           "title": "Spyro the Dragon: Year of the Dragon",
@@ -169,7 +169,7 @@
           "type": "video",
           "cover": "./images/covers/spyro-3.jpg",
           "src": "https://www.youtube.com/embed/dcMar1C4CmA",
-          "id": 5
+          "id": "19"
         },
         {
           "title": "Alex the kidd in miracle world",
@@ -177,7 +177,7 @@
           "type": "video",
           "cover": "./images/covers/alex-the-kid.jpg",
           "src": "https://www.youtube.com/embed/Y9xJzX4Ua3o",
-          "id": 5
+          "id": "20"
         },
         {
           "title": "Yu-Gi-Oh! Forbidden Memories",
@@ -185,68 +185,68 @@
           "type": "video",
           "cover": "./images/covers/yugioh-fm.jpg",
           "src": "https://www.youtube.com/embed/u6mVOKBnq0M",
-          "id": 5
+          "id": "21"
         }
       ]
     }
   ],
   "soundtracks": [
     {
-      "id": 1,
+      "id": "1",
       "songname": "Everything's Alright",
       "game": "To the Moon",
       "src": "https://www.youtube.com/embed/OkvVr6n1cGk"
     },
     {
-      "id": 2,
+      "id": "2",
       "songname": "Ocean",
       "game": "The Legend of Zelda: Wind Waker",
       "src": "https://www.youtube.com/embed/gN_x1rpGbY8"
     },
     {
-      "id": 3,
+      "id": "3",
       "songname": "Storm Eagle",
       "game": "Megaman X",
       "src": "https://www.youtube.com/embed/ht7YJptvt_w"
     },
     {
-      "id": 4,
+      "id": "4",
       "songname": "Ranked / Draft Champion Select",
       "game": "League of Legends",
       "src": "https://www.youtube.com/embed/WIOh512j8XM"
     },
     {
-      "id": 5,
+      "id": "5",
       "songname": "Hyrule Field",
       "game": "The Legend of Zelda: Ocarina of Time",
       "src": "https://www.youtube.com/embed/zO8Y7hdD6Qk"
     },
     {
-      "id": 6,
+      "id": "6",
       "songname": "The Spirit Tree",
       "game": "Ori and the Blind Forest",
       "src": "https://www.youtube.com/embed/E8sjk57G-s8"
     },
     {
-      "id": 7,
+      "id": "7",
       "songname": "Breath of the Wild",
       "game": "The Legend of Zelda: Breath of the Wild",
       "src": "https://www.youtube.com/embed/cPWBG6_jn4"
     },
     {
-      "id": 8,
+      "id": "8",
       "songname": "N. Sanity Beach",
       "game": "Crash Bandicoot",
       "src": "https://www.youtube.com/embed/e68I_a6Y8rY"
     },
     {
-      "id": 9,
+      "id": "9",
       "songname": "TLOZ Wind Waker Title",
       "game": "The Legend of Zelda: Wind Waker",
       "src": "https://www.youtube.com/embed/qE3lz6-Wltg"
     },
     {
-      "id": 10,
+      "id": "10",
       "songname": "SSBB Main Theme",
       "game": "Super Smash Bros Brawl",
       "src": "https://www.youtube.com/embed/PInuVXgxO1g"
@@ -254,31 +254,31 @@
   ],
   "youtubers": [
     {
-      "id": 1,
+      "id": "1",
       "channel": "https://www.youtube.com/user/GuinxuVideos",
       "name": "Guinxu",
       "logoSrc": "./images/logos/guinxu.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "channel": "https://www.youtube.com/user/adderly2dd",
       "name": "Adderly Céspedes",
       "logoSrc": "./images/logos/adderly.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "channel": "https://www.youtube.com/user/FuKuy",
       "name": "FuKuy",
       "logoSrc": "./images/logos/fukuy.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "channel": "https://www.youtube.com/user/Servorius",
       "name": "Hektor Profe",
       "logoSrc": "./images/logos/hektor.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "channel": "https://www.youtube.com/channel/UCdF0Qnc38nFc7lw01GshQ9g",
       "name": "Padre Gamer",
       "logoSrc": "./images/logos/padre.jpg"
