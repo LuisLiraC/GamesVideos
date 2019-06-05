@@ -22,7 +22,7 @@ module.exports = (env) => {
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'js/[name].js',
-      publicPath: "/",
+      publicPath: "./",
       chunkFilename: 'js/[id].[chunkhash].js',
     },
     devServer: {
