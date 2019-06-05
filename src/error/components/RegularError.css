@@ -1,12 +1,6 @@
 .RegularError {
-    width: 100%;
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 150px;
 }
 
 .RegularError-img {
@@ -23,3 +17,14 @@
     color: #21C737;
     font-size: 14px;
 }
+
+.Button {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    color: #171d30;
+    font-size: 16px;
+    margin: 10px;
+    margin-bottom: 10px;
+  }

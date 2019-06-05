@@ -6,6 +6,10 @@ import {bindActionCreators} from 'redux';
 
 class SearchContainer extends Component {
 
+    state = {
+        prompt: false
+    }
+
     handleSubmit = (event) => {
         event.preventDefault();
         this.props.actions.searchAsyncEntities(this.input.value)
@@ -17,7 +21,8 @@ class SearchContainer extends Component {
 
     handleInputChange = (event) => {
         this.setState({
-            value: event.target.value
+            value: event.target.value,
+            prompt: !!(event.target.value.length)
         })
     }
 
@@ -27,6 +32,7 @@ class SearchContainer extends Component {
                 setRef={this.setInputRef}
                 handleSubmit={this.handleSubmit}
                 handleChange={this.handleInputChange}
+                prompt={this.state.prompt}
             />
         )
     }

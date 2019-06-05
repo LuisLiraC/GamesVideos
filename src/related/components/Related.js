@@ -7,9 +7,6 @@ import './Related.css';
 function Related (props) {
     return (
         <div className="Related">
-            <div className="Related-logo">
-                <img src={logo} width="250"/>
-            </div>
             <Soundtracks 
                 songs={props.soundtracks} 
                 handleOpenModal={props.handleOpenModal}

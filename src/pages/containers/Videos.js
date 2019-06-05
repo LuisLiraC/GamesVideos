@@ -11,7 +11,7 @@ import { List as list } from 'immutable';
 import * as actions from '../../actions/actions';
 import {bindActionCreators} from 'redux';
 
-class Home extends Component {
+class Videos extends Component {
     // state = {
     //     modalVisible: false,
     // }
@@ -31,8 +31,14 @@ class Home extends Component {
         // })
     }
 
+    componentDidMount() {
+        // const search = this.props.location.search.slice(9, this.props.location.search.length)
+        const search = this.props.location.search.split('=')[1];
+        if (search) {
+            this.handleOpenModal(search);
+        }
+    }
     
-
     render () {
         return (
             <HandleError>
@@ -69,6 +75,7 @@ class Home extends Component {
     }
 }
 
+
 function mapStateToProps(state, props){
     const categories = state.get('data').get('categories').map((categoryId) => {
         return state.get('data').get('entities').get('categories').get(categoryId)
@@ -99,4 +106,4 @@ function mapDispatchToProps(dispatch){
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Videos);

@@ -1,0 +1,15 @@
+.contact {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.social-media {
+    margin: 30px;
+}
+
+.social-media img {
+    width: 280px;
+}
