@@ -12,6 +12,7 @@ const Home = () => (
         <img src={technologies}/>
     </div>
     <img src={LinkMusic} className="LinkMusic" />
+    <div>:D</div>
   </div>
 )
 

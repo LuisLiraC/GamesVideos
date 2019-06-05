@@ -9,7 +9,7 @@
           "title": "Breath of the Wild",
           "author": "Nintendo EPD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-botw.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-botw.jpg",
           "src": "https://www.youtube.com/embed/zw47_q9wbBE",
           "id": "1"
         },
@@ -17,7 +17,7 @@
           "title": "Ocarina of Time",
           "author": "Nintendo EAD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-oot.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-oot.jpg",
           "src": "https://www.youtube.com/embed/_NElFLzgdUs",
           "id": "2"
         },
@@ -25,7 +25,7 @@
           "title": "A Link to the Past",
           "author": "Nintendo EAD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-alttp.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-alttp.jpg",
           "src": "https://www.youtube.com/embed/wg1MXUZC2_E",
           "id": "3"
         },
@@ -33,7 +33,7 @@
           "title": "Wind Waker",
           "author": "Nintendo EAD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-ww.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-ww.jpg",
           "src": "https://www.youtube.com/embed/RxMos9muPYQ",
           "id": "4"
         },
@@ -41,7 +41,7 @@
           "title": "Twilight Princess",
           "author": "Nintendo EAD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-tp.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-tp.jpg",
           "src": "https://www.youtube.com/embed/YHu7hvxjdww",
           "id": "5"
         },
@@ -49,7 +49,7 @@
           "title": "Majora's Mask",
           "author": "Nintendo EAD",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-majora.png",
+          "cover": "./GamesVideos/images/covers/zelda-majora.png",
           "src": "https://www.youtube.com/embed/cyazYYev7Nw",
           "id": "6"
         },
@@ -57,7 +57,7 @@
           "title": "Minish Cap",
           "author": "Flagship",
           "type": "video",
-          "cover": "GamesVideos/images/covers/zelda-minish.jpg",
+          "cover": "./GamesVideos/images/covers/zelda-minish.jpg",
           "src": "https://www.youtube.com/embed/l4l86EtYers",
           "id": "7"
         }
@@ -72,7 +72,7 @@
           "title": "League of Legends",
           "author": "Riot Games",
           "type": "video",
-          "cover": "GamesVideos/images/covers/league-of-legends.jpg",
+          "cover": "./GamesVideos/images/covers/league-of-legends.jpg",
           "src": "https://www.youtube.com/embed/zF5Ddo9JdpY",
           "id": "8"
         },
@@ -80,7 +80,7 @@
           "title": "To the Moon",
           "author": "Freebird Games",
           "type": "video",
-          "cover": "GamesVideos/images/covers/tothemoon.jpg",
+          "cover": "./GamesVideos/images/covers/tothemoon.jpg",
           "src": "https://www.youtube.com/embed/sqkJuSV-23U",
           "id": "9"
         },
@@ -88,7 +88,7 @@
           "title": "Child of Light",
           "author": "Ubisoft Montreal",
           "type": "video",
-          "cover": "GamesVideos/images/covers/child-of-light.jpg",
+          "cover": "./GamesVideos/images/covers/child-of-light.jpg",
           "src": "https://www.youtube.com/embed/KsB1ydR8NFk",
           "id": "10"
         },
@@ -96,7 +96,7 @@
           "title": "Minecraft",
           "author": "Mojang",
           "type": "video",
-          "cover": "GamesVideos/images/covers/minecraft.jpg",
+          "cover": "./GamesVideos/images/covers/minecraft.jpg",
           "src": "https://www.youtube.com/embed/MmB9b5njVbA",
           "id": "11"
         },
@@ -104,7 +104,7 @@
           "title": "Ori and the Blind Forest",
           "author": "Moon Studios",
           "type": "video",
-          "cover": "GamesVideos/images/covers/ori.jpg",
+          "cover": "./GamesVideos/images/covers/ori.jpg",
           "src": "https://www.youtube.com/embed/cklw-Yu3moE",
           "id": "12"
         },
@@ -112,7 +112,7 @@
           "title": "Terraria",
           "author": "Re-Logic",
           "type": "video",
-          "cover": "GamesVideos/images/covers/terraria.jpg",
+          "cover": "./GamesVideos/images/covers/terraria.jpg",
           "src": "https://www.youtube.com/embed/w7uOhFTrrq0",
           "id": "13"
         },
@@ -120,7 +120,7 @@
           "title": "Hollow Knight",
           "author": "Team Cherry",
           "type": "video",
-          "cover": "GamesVideos/images/covers/hollow-knight.jpg",
+          "cover": "./GamesVideos/images/covers/hollow-knight.jpg",
           "src": "https://www.youtube.com/embed/UAO2urG23S4",
           "id": "14"
         }
@@ -135,7 +135,7 @@
           "title": "Pokémon Esmeralda",
           "author": "Game Freak",
           "type": "video",
-          "cover": "GamesVideos/images/covers/pokemon-emerald.jpg",
+          "cover": "./GamesVideos/images/covers/pokemon-emerald.jpg",
           "src": "https://www.youtube.com/embed/KInoJimjJzI",
           "id": "15"
         },
@@ -143,7 +143,7 @@
           "title": "Super Smash Bros Melee",
           "author": "HAL Laboratory",
           "type": "video",
-          "cover": "GamesVideos/images/covers/ssbm.jpg",
+          "cover": "./GamesVideos/images/covers/ssbm.jpg",
           "src": "https://www.youtube.com/embed/O0O173xIuO0",
           "id": "16"
         },
@@ -151,7 +151,7 @@
           "title": "Super Mario World",
           "author": "Nintendo",
           "type": "video",
-          "cover": "GamesVideos/images/covers/super-mario-world.jpg",
+          "cover": "./GamesVideos/images/covers/super-mario-world.jpg",
           "src": "https://www.youtube.com/embed/t_aEv3pAh44",
           "id": "17"
         },
@@ -159,7 +159,7 @@
           "title": "Megaman X",
           "author": "Capcom",
           "type": "video",
-          "cover": "GamesVideos/images/covers/megaman-x.jpg",
+          "cover": "./GamesVideos/images/covers/megaman-x.jpg",
           "src": "https://www.youtube.com/embed/KiH35lzjXTc",
           "id": "18"
         },
@@ -167,7 +167,7 @@
           "title": "Spyro the Dragon: Year of the Dragon",
           "author": "Insomniac Games",
           "type": "video",
-          "cover": "GamesVideos/images/covers/spyro-3.jpg",
+          "cover": "./GamesVideos/images/covers/spyro-3.jpg",
           "src": "https://www.youtube.com/embed/dcMar1C4CmA",
           "id": "19"
         },
@@ -175,7 +175,7 @@
           "title": "Alex the kidd in miracle world",
           "author": "Sega",
           "type": "video",
-          "cover": "GamesVideos/images/covers/alex-the-kid.jpg",
+          "cover": "./GamesVideos/images/covers/alex-the-kid.jpg",
           "src": "https://www.youtube.com/embed/Y9xJzX4Ua3o",
           "id": "20"
         },
@@ -183,7 +183,7 @@
           "title": "Yu-Gi-Oh! Forbidden Memories",
           "author": "Konami",
           "type": "video",
-          "cover": "GamesVideos/images/covers/yugioh-fm.jpg",
+          "cover": "./GamesVideos/images/covers/yugioh-fm.jpg",
           "src": "https://www.youtube.com/embed/u6mVOKBnq0M",
           "id": "21"
         }
@@ -257,31 +257,31 @@
       "id": "1",
       "channel": "https://www.youtube.com/user/GuinxuVideos",
       "name": "Guinxu",
-      "logoSrc": "GamesVideos/images/logos/guinxu.jpg"
+      "logoSrc": "./GamesVideos/images/logos/guinxu.jpg"
     },
     {
       "id": "2",
       "channel": "https://www.youtube.com/user/adderly2dd",
       "name": "Adderly Céspedes",
-      "logoSrc": "GamesVideos/images/logos/adderly.jpg"
+      "logoSrc": "./GamesVideos/images/logos/adderly.jpg"
     },
     {
       "id": "3",
       "channel": "https://www.youtube.com/user/FuKuy",
       "name": "FuKuy",
-      "logoSrc": "GamesVideos/images/logos/fukuy.jpg"
+      "logoSrc": "./GamesVideos/images/logos/fukuy.jpg"
     },
     {
       "id": "4",
       "channel": "https://www.youtube.com/user/Servorius",
       "name": "Hektor Profe",
-      "logoSrc": "GamesVideos/images/logos/hektor.jpg"
+      "logoSrc": "./GamesVideos/images/logos/hektor.jpg"
     },
     {
       "id": "5",
       "channel": "https://www.youtube.com/channel/UCdF0Qnc38nFc7lw01GshQ9g",
       "name": "Padre Gamer",
-      "logoSrc": "GamesVideos/images/logos/padre.jpg"
+      "logoSrc": "./GamesVideos/images/logos/padre.jpg"
     }
   ]
 }
