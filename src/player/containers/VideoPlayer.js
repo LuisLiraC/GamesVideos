@@ -131,8 +131,8 @@ function mapStateToProps(state, props){
     } else {
         return {
             game: fromJS({
-                title: props.id.songname,
-                src: props.id.src
+                title: props.id._root.entries[1][1],
+                src: props.id._root.entries[3][1]
             })
         }
     }
